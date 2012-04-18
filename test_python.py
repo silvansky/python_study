@@ -23,4 +23,7 @@ a, b = b, a + b;
 
 print(a, b);
 
-print(sys.argv);
+#print(sys.argv);
+
+for i in sys.stdin.readlines():
+	print(i.rstrip());
